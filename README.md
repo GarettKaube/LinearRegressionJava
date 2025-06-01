@@ -3,8 +3,9 @@ Just a simple Java program implementing linear regression, optimizers, and regul
 
 ## Example Linear Regression training with Stochastic Gradient Descent:
 ### Initialize loss function (mean squared error) and model:
-```Mse mse = new Mse();
- LinearRegression model = new LinearRegression();
+```
+Mse mse = new Mse();
+LinearRegression model = new LinearRegression();
 ```
 ### Optional regularization for the loss:
 ```
